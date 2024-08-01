@@ -1,0 +1,18 @@
+<form [formGroup]="appointmentForm">
+    <div>
+        <label>Patient Name :</label>
+        <input formControlName="patientName">
+    </div>
+    <!-- <hr> -->
+    <div>
+        <label>Patient Name :</label>
+        <input formControlName="doctorName">
+    </div>
+    <!-- <hr> -->
+    <div>
+        <label>Patient Name :</label>
+        <input formControlName="dateTime">
+    </div>
+
+    <button (click)="submitForm()">Submit</button>
+</form>

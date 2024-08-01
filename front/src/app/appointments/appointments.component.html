@@ -1,0 +1,21 @@
+<p>appointments works!</p>
+<!-- The AG Grid component, with various Grid Option properties -->
+<!-- <ag-grid-angular
+    style="width: 500px; height: 500px;"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+/> -->
+
+
+<table>
+    <tr>
+      <th>Patient Name</th>
+      <th>Doctor Name</th>
+      <th>Date/Time</th>
+    </tr>
+    <tr *ngFor="let x of rowData">
+      <td>{{x.patientName}}</td>
+      <td>{{x.doctorName}}</td>
+      <td>{{x.appointmentTime}}</td>
+    </tr>
+  </table>
