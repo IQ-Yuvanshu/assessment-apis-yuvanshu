@@ -2,8 +2,8 @@ In my assessment i was given appointments functionality basically to do CRUD ope
 
 for this i have added three files
 
-front -- UI part based on angular
-yuvanshu -- backend api based on java spring boot 
+front -- UI part based on angular ,
+yuvanshu -- backend api based on java spring boot ,
 dumps -- it has sql file to setup database 
 
 
